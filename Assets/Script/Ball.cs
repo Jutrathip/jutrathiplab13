@@ -62,8 +62,12 @@ public class Ball : MonoBehaviour
                 rd.material.color = Color.blue;
                 break;
             case BallColor.Pink:
-                point = 5;
+                point = 6;
                 rd.material.color = new Color(255, 98, 193, 255);
+                break;
+            case BallColor.Black:
+                point = 7;
+                rd.material.color = Color.black;
                 break;
         }
     }
